@@ -3,6 +3,8 @@ package com.learningSpring;
 import javax.persistence.Embeddable;
 import javax.validation.constraints.Email;
 
+import io.swagger.annotations.Api;
+
 @Embeddable
 public class CustomerContact {
 
